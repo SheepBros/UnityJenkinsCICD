@@ -1,0 +1,14 @@
+{
+  "name": "StageFlow.PlayModeTests",
+  "rootNamespace": "StageFlow",
+  "references": [
+    "StageFlow.Runtime"
+  ],
+  "includePlatforms": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "defineConstraints": [
+    "UNITY_INCLUDE_TESTS"
+  ]
+}

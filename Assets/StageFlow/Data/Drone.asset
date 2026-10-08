@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e9a3e60f4a64718bb71b59734569ff, type: 3}
+  m_Name: Drone
+  m_EditorClassIdentifier: StageFlow.Runtime::StageFlow.EnemyDefinition
+  Id: drone
+  DisplayName: Cylinder Drone
+  MoveSpeed: 2.4
+  Prefab: {fileID: 4233566922226203779, guid: 5ace8c5da419a43dba347239c12bf5e8, type: 3}

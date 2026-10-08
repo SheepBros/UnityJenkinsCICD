@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30c1730cc74904af48db7e234ec6afe7, type: 3}
+  m_Name: StageRuntimeNormal
+  m_EditorClassIdentifier: StageFlow.Runtime::StageFlow.StageDefinition
+  Id: runtime-normal
+  DisplayName: Stage Runtime Normal (150)
+  Entries: []
+  SpawnInterval: 0.6
+  Waves:
+  - DisplayName: Wave 1
+    Groups:
+    - DisplayName: Upper Scouts
+      Enemy: {fileID: 11400000, guid: 0345a2a39503b4f369fc289b3d5c6d8a, type: 2}
+      Count: 12
+      StartDelay: 0
+      SpawnInterval: 0.16
+      Route: {fileID: 11400000, guid: 3a5d015ff92674f5cbb116f79423452b, type: 2}
+    - DisplayName: Center Walkers
+      Enemy: {fileID: 11400000, guid: fb7f46de39c254b1a890fed76d84de2b, type: 2}
+      Count: 10
+      StartDelay: 0.45
+      SpawnInterval: 0.22
+      Route: {fileID: 11400000, guid: 04808585773884266bfed547a10d2565, type: 2}
+    - DisplayName: Lower Drones
+      Enemy: {fileID: 11400000, guid: 77391c738c48b4746954c62c2909bee9, type: 2}
+      Count: 8
+      StartDelay: 0.9
+      SpawnInterval: 0.18
+      Route: {fileID: 11400000, guid: b654e54cf1d294fe28ba0a9f574fc445, type: 2}
+  - DisplayName: Wave 2
+    Groups:
+    - DisplayName: Lower Scouts
+      Enemy: {fileID: 11400000, guid: 0345a2a39503b4f369fc289b3d5c6d8a, type: 2}
+      Count: 15
+      StartDelay: 0
+      SpawnInterval: 0.14
+      Route: {fileID: 11400000, guid: b654e54cf1d294fe28ba0a9f574fc445, type: 2}
+    - DisplayName: Upper Drones
+      Enemy: {fileID: 11400000, guid: 77391c738c48b4746954c62c2909bee9, type: 2}
+      Count: 12
+      StartDelay: 0.3
+      SpawnInterval: 0.17
+      Route: {fileID: 11400000, guid: 3a5d015ff92674f5cbb116f79423452b, type: 2}
+    - DisplayName: Center Walkers
+      Enemy: {fileID: 11400000, guid: fb7f46de39c254b1a890fed76d84de2b, type: 2}
+      Count: 8
+      StartDelay: 0.75
+      SpawnInterval: 0.24
+      Route: {fileID: 11400000, guid: 04808585773884266bfed547a10d2565, type: 2}
+  - DisplayName: Wave 3
+    Groups:
+    - DisplayName: Center Scouts
+      Enemy: {fileID: 11400000, guid: 0345a2a39503b4f369fc289b3d5c6d8a, type: 2}
+      Count: 18
+      StartDelay: 0
+      SpawnInterval: 0.13
+      Route: {fileID: 11400000, guid: 04808585773884266bfed547a10d2565, type: 2}
+    - DisplayName: Lower Walkers
+      Enemy: {fileID: 11400000, guid: fb7f46de39c254b1a890fed76d84de2b, type: 2}
+      Count: 10
+      StartDelay: 0.4
+      SpawnInterval: 0.21
+      Route: {fileID: 11400000, guid: b654e54cf1d294fe28ba0a9f574fc445, type: 2}
+    - DisplayName: Upper Drones
+      Enemy: {fileID: 11400000, guid: 77391c738c48b4746954c62c2909bee9, type: 2}
+      Count: 12
+      StartDelay: 0.65
+      SpawnInterval: 0.16
+      Route: {fileID: 11400000, guid: 3a5d015ff92674f5cbb116f79423452b, type: 2}
+  - DisplayName: Wave 4
+    Groups:
+    - DisplayName: Upper Scouts
+      Enemy: {fileID: 11400000, guid: 0345a2a39503b4f369fc289b3d5c6d8a, type: 2}
+      Count: 20
+      StartDelay: 0
+      SpawnInterval: 0.12
+      Route: {fileID: 11400000, guid: 3a5d015ff92674f5cbb116f79423452b, type: 2}
+    - DisplayName: Center Drones
+      Enemy: {fileID: 11400000, guid: 77391c738c48b4746954c62c2909bee9, type: 2}
+      Count: 15
+      StartDelay: 0.25
+      SpawnInterval: 0.14
+      Route: {fileID: 11400000, guid: 04808585773884266bfed547a10d2565, type: 2}
+    - DisplayName: Lower Walkers
+      Enemy: {fileID: 11400000, guid: fb7f46de39c254b1a890fed76d84de2b, type: 2}
+      Count: 10
+      StartDelay: 0.55
+      SpawnInterval: 0.2
+      Route: {fileID: 11400000, guid: b654e54cf1d294fe28ba0a9f574fc445, type: 2}

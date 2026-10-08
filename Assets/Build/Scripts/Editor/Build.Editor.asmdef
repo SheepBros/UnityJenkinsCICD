@@ -1,0 +1,18 @@
+{
+    "name": "Build.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:694866e2eb742471bbc99a98391a7765"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

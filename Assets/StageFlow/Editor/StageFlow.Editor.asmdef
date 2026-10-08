@@ -1,0 +1,10 @@
+{
+  "name": "StageFlow.Editor",
+  "rootNamespace": "StageFlow",
+  "references": [
+    "StageFlow.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}

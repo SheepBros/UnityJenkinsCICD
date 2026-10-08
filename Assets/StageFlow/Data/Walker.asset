@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33e9a3e60f4a64718bb71b59734569ff, type: 3}
+  m_Name: Walker
+  m_EditorClassIdentifier: StageFlow.Runtime::StageFlow.EnemyDefinition
+  Id: walker
+  DisplayName: Capsule Walker
+  MoveSpeed: 1.9
+  Prefab: {fileID: 4414084184327470665, guid: ea5afaff021964d50aa1160b70c69ebf, type: 3}
