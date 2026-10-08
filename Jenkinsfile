@@ -70,13 +70,13 @@ pipeline {
             )
         )
     }
-    
+
     stages {
         stage('Windows CI') {
             agent {
                 label 'unity-win'
             }
-            
+
             stages {
                 stage('Checkout') {
                     steps {
