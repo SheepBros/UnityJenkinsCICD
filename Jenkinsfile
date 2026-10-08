@@ -70,7 +70,7 @@ pipeline {
             )
         )
     }
-    
+
     stages {
         stage('Windows CI') {
             agent {
