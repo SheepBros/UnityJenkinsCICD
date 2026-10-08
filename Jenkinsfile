@@ -136,7 +136,7 @@ pipeline {
                                 env.EFFECTIVE_PACKAGE_FORMAT = 'apk'
                                 env.EFFECTIVE_BUILD_VERSION = ''
                             }
-                            
+
                             bat '''
                                 echo BUILD_MODE : %BUILD_MODE%
                                 echo EFFECTIVE_BUILD_NUMBER : %EFFECTIVE_BUILD_NUMBER%
