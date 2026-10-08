@@ -83,7 +83,7 @@ pipeline {
                         checkout scm
                     }
                 }
-        
+
                 stage('CI Context') {
                     steps {
                         script {
